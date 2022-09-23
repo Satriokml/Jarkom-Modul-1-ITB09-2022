@@ -21,7 +21,10 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
 2. Karena yang diminta adalah paket yang berasal dari port, maka commandnya adalah **`source`** atau **`src`**.
 
-3. Yang diminta adalah port 21 **(TCP)**. Maka command nya adalah `tcp.srcport==21`.
+3. Yang diminta adalah port 21 **(TCP)**. Maka command nya adalah 
+```
+tcp.srcport==21
+```
 
 ![Gambar_Soal_4_1](images/soal_4_1.png)
 
@@ -37,7 +40,10 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju ke `lipi.go.id` !
 
 3. Karena yang diminta paket yang menuju ke web, maka command yang akan kita pakai adalah `destination` atau `dst`.
 
-4. Masukkan command `ip.dst == 203.160.128.158`.
+4. Masukkan command 
+```
+ip.dst == 203.160.128.158
+```
 
 ![Gambar_Soal_6_2](images/soal_6_2.png)
 
