@@ -13,6 +13,8 @@ Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke web
 3. Buka file yang sudah di simpan dengan browser. Jika di cek, maka kita akan tahu topik TA yang sedang dicari oleh Ishaq (FUSE).
 ![Gambar_Soal_2_2](images/soal_2_2.png)
 
+---
+
 ## Soal 4
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
