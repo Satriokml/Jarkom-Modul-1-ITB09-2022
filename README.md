@@ -30,6 +30,8 @@ tcp.srcport==21
 
 ![Gambar_Soal_4_1](images/soal_4_1.png)
 
+---
+
 ## Soal 6
 Filter sehingga wireshark hanya menampilkan paket yang menuju ke `lipi.go.id` !
 
@@ -49,6 +51,8 @@ ip.dst == 203.160.128.158
 
 ![Gambar_Soal_6_2](images/soal_6_2.png)
 
+---
+
 ## Soal 8
 Telusuri aliran paket dalam file .pcap yang diberikan, cari informasi berguna berupa percakapan antara dua mahasiswa terkait tindakan kecurangan pada kegiatan praktikum. Percakapan tersebut dilaporkan menggunakan protokol jaringan dengan tingkat keandalan yang tinggi dalam pertukaran datanya sehingga kalian perlu menerapkan filter dengan protokol yang tersebut.
 
@@ -67,6 +71,8 @@ tcp.port==65432
 4. Lalu klik kanan dan klik **Follow** dan pilih opsi **TCP Stream**. Maka akan tampil percakapan antara **port 65432** dan **port 60236**.
 
 ![Gambar_Soal_8_2](images/soal_8_2.png)
+
+---
 
 ## Soal 10
 Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di atas!
