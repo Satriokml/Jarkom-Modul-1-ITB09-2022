@@ -1,6 +1,19 @@
 # Jarkom-Modul-1-ITB09-2022
 Laporan Resmi Praktikum Jaringan Komunikasi Modul 1
 
+## Soal 1
+Sebutkan web server yang digunakan pada "monta.if.its.ac.id"! 
+
+### Cara Pengerjaan
+1. Buka web `monta.if.its.ac.id`.
+2. Buka developer tools, buka tab `Network`.
+3. Refresh halaman.
+4. Klik salah satu paket yang dikirimkan, lihat `Headers` kemudian `Response Headers`. 
+5. Salah satu data yang dikirimkan mengandung dari web server mana dokumen ini, yakni dari `nginx/1.10.3`.
+![Gambar_Soal_1](./images/soal_1.PNG)
+
+---
+
 ## Soal 2
 Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website monta dan menemukan detail topik pada website “monta.if.its.ac.id” , judul TA apa yang dibuka oleh ishaq ?
 
@@ -15,10 +28,23 @@ Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke web
 
 ---
 
+## Soal 3
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 80! 
+
+### Cara Pengerjaan
+1. Pertama-tama kita buka file pcapng yang sudah diberikan di soal. 
+2. Kemudian ketikkan command:
+```
+tcp.dstport == 80
+```
+![Gambar_Soal_3](./images/soal_3.png)
+
+---
+
 ## Soal 4
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
 
-### Cara pengerjaan
+### Cara Pengerjaan
 1. Pertama-tama kita buka file pcapng yang sudah diberikan di soal. 
 
 2. Karena yang diminta adalah paket yang berasal dari port, maka commandnya adalah **`source`** atau **`src`**.
@@ -32,10 +58,23 @@ tcp.srcport==21
 
 ---
 
+## Soal 5
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
+
+### Cara Pengerjaan
+1. Pertama-tama kita buka file pcapng yang sudah diberikan di soal. 
+2. Kemudian ketikkan command:
+```
+tcp.srcport == 443
+```
+![Gambar_Soal_5](./images/soal_5.PNG)
+
+---
+
 ## Soal 6
 Filter sehingga wireshark hanya menampilkan paket yang menuju ke `lipi.go.id` !
 
-### Cara pengerjaan
+### Cara Pengerjaan
 1. Pertama-tama, kita harus ping `lipi.go.id` untuk menemukan IP address dari web tersebut.
 
 ![Gambar_Soal_6_1](images/soal_6_1.png)
@@ -50,6 +89,15 @@ ip.dst == 203.160.128.158
 ```
 
 ![Gambar_Soal_6_2](images/soal_6_2.png)
+
+---
+
+## Soal 7
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+### Cara Pengerjaan
+1. Cek IP dengan menggunakan command `ipconfig` pada terminal.
+![Gambar_Soal_7_1](./images/soal_7_1.PNG)
 
 ---
 
