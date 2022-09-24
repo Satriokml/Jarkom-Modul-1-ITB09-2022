@@ -4,8 +4,10 @@ Laporan Resmi Praktikum Jaringan Komunikasi Modul 1
 ---
 
 ## Anggota Kelompok
-- Rama Muhammad Murshal (5027201041)
-- Satrio Kamil Widhiwoso (5027201051)
+Nama | NRP
+--- | ---
+Rama Muhammad Murshal | 5027201041
+Satrio Kamil Widhiwoso | 5027201051
 
 ## Daftar Isi
 - [Soal 1](#soal-1)
